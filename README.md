@@ -302,13 +302,13 @@ Six core functions provide the LLM with complete game awareness:
 - **Finding complete solution paths**
 - **Supporting voice interaction**
 
+This architecture solves a key challenge in game-playing LLMs: how to give models accurate, real-time game state information without hallucination. By exposing specific game functions to the LLM, it can make informed decisions based on the actual game state rather than its internal understanding of FreeCell rules.
+
+The design represents a promising bridge between traditional game-solving algorithms and natural language interfaces, potentially making complex puzzle games more accessible to casual players.
+
  ## Contributors
 
 Thanks to the following people for contributing to this project:
 
 - [@mlousado27](https://github.com/mlousado27)
 - [@joao-viterbo-viera](https://github.com/joao-viterbo-viera)
-
-This architecture solves a key challenge in game-playing LLMs: how to give models accurate, real-time game state information without hallucination. By exposing specific game functions to the LLM, it can make informed decisions based on the actual game state rather than its internal understanding of FreeCell rules.
-
-The design represents a promising bridge between traditional game-solving algorithms and natural language interfaces, potentially making complex puzzle games more accessible to casual players.
